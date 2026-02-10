@@ -1,11 +1,11 @@
 import pandas as pd
 
-spogbob = {
+spogebob = {
     "Karakter" : ["Spongbob","Mr Krab", "Squidword"],
     "Umur" : [30,32,36]
 }
 
-dataframe = pd.DataFrame(spogbob)
+dataframe = pd.DataFrame(spogebob)
 
 #add kolom baru
 dataframe["Posisi"] = ["Chef","Owner","Cashier"]
